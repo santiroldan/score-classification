@@ -5,7 +5,7 @@
     "main": "index.ts",
     "scripts": {
         "start:basic": "ts-node src/basic-implementation/main.ts",
-        "start:advanced": "ts-node src/advanced-example/main.ts"
+        "start:advanced": "ts-node src/advanced-implementation/main.ts"
     },
     "author": "Santi Roldán",
     "license": "MIT",
