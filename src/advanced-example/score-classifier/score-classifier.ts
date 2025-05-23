@@ -9,7 +9,12 @@ export class ScoreClassifier {
     }
 
     classify(score: number): string {
-        const strategy = this.strategies.find(s => s.isMatch(score)) ?? { getClassification: () => "Unknown" };
+        const strategy = this.strategies.find(s => s.isMatch(score));
+
+        if (!strategy) {
+            throw new Error(`No strategy found for score: ${score}`);
+        }
+
         return strategy.getClassification();
     }
 }
