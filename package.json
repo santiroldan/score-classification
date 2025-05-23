@@ -1,0 +1,16 @@
+{
+    "name": "strategy-pattern-example",
+    "version": "1.0.0",
+    "description": "Ejemplo del patrón Strategy en TypeScript",
+    "main": "index.ts",
+    "scripts": {
+        "start:basic": "ts-node src/basic-example/main.ts",
+        "start:advanced": "ts-node src/advanced-example/main.ts"
+    },
+    "author": "Santi Roldán",
+    "license": "MIT",
+    "devDependencies": {
+        "ts-node": "^10.9.1",
+        "typescript": "^5.0.0"
+    }
+}
