@@ -1,10 +1,10 @@
 import {ClassificationStrategy} from "./classification-strategy";
-import {StrategySet} from "./classification-strategy-set";
+import {ClassificationStrategySet} from "./classification-strategy-set";
 
 export class ScoreClassifier {
     private strategies: ClassificationStrategy[];
 
-    constructor(strategySet: StrategySet) {
+    constructor(strategySet: ClassificationStrategySet) {
         this.strategies = strategySet.getStrategies();
     }
 

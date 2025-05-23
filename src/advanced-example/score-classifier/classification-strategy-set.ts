@@ -1,5 +1,5 @@
 import {ClassificationStrategy} from "./classification-strategy";
 
-export interface StrategySet {
+export interface ClassificationStrategySet {
     getStrategies(): ClassificationStrategy[];
 }
