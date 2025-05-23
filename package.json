@@ -4,7 +4,7 @@
     "description": "Ejemplo del patrón Strategy en TypeScript",
     "main": "index.ts",
     "scripts": {
-        "start:basic": "ts-node src/basic-example/main.ts",
+        "start:basic": "ts-node src/basic-implementation/main.ts",
         "start:advanced": "ts-node src/advanced-example/main.ts"
     },
     "author": "Santi Roldán",
