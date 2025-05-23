@@ -6,11 +6,11 @@ Este proyecto demuestra cómo aplicar el patrón de diseño **Strategy** en Type
 - [Objetivo del Proyecto](#-objetivo-del-proyecto)
 - [Implementación Básica](#-implementación-básica)
 - [Implementación Avanzada](#-implementación-avanzada)
-- [Estrategias disponibles](#-estrategias-disponibles)
+- [Estrategias Disponibles](#-estrategias-disponibles)
 - [Automatización de Estrategias (Opcional)](#-automatización-de-estrategias-opcional)
 - [Instalación](#-instalación)
-- [Ejecutar los ejemplos](#-ejecutar-los-ejemplos)
-
+- [Ejecutar los Ejemplos](#-ejecutar-los-ejemplos)
+- [Licencia](#-licencia)
 ---
 
 ## 🧠 ¿Qué es el Patrón Strategy?
@@ -57,7 +57,7 @@ La versión avanzada está diseñada para ser más flexible. Introduce un concep
 
 ---
 
-## 🧠 Estrategias disponibles
+## 🧠 Estrategias Disponibles
 
 ### 1. Estrategias Estándar
 
@@ -103,7 +103,7 @@ npm install
 
 ---
 
-## 🚀 Ejecutar los ejemplos
+## 🚀 Ejecutar los Ejemplos
 
 Este proyecto incluye dos versiones del clasificador con estrategias diferentes:
 
