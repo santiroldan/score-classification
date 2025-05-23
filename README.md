@@ -110,13 +110,13 @@ Este proyecto incluye dos versiones del clasificador con estrategias diferentes:
 - **Versión básica:** Usa un conjunto fijo y simple de estrategias para clasificar puntuaciones en categorías estándar como “Excellent”, “Good” y “Average”. Es ideal para entender el patrón Strategy en su forma más sencilla.
 
 ```bash
-npm start:basic
+npm run start:basic
 ```
 
 - **Versión avanzada:** Permite elegir entre diferentes conjuntos de estrategias para clasificar puntuaciones, incluyendo tanto la clasificación estándar como una basada en letras (A, B, C). Esta versión es más flexible y escalable, perfecta para escenarios donde las reglas pueden variar.
 
 ```bash
-npm start:advanced
+npm run start:advanced
 ```
 
 ---
