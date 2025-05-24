@@ -1,8 +1,8 @@
 # 🎯 Clasificación de Puntuaciones con el Patrón Estrategia en TypeScript
 
-Este proyecto demuestra cómo aplicar el patrón de diseño **Strategy** en TypeScript para resolver un caso común: clasificar una puntuación (`score`) en distintas categorías. Se abordan dos niveles de implementación: uno básico y otro avanzado, orientado a la extensibilidad y mantenibilidad.
+Este proyecto demuestra cómo aplicar el patrón de diseño **Estrategia** en TypeScript para resolver un caso común: clasificar una puntuación (`score`) en distintas categorías. Se abordan dos niveles de implementación: uno básico y otro avanzado, orientado a la extensibilidad y mantenibilidad.
 
-- [¿Qué es el Patrón Strategy?](#-qué-es-el-patrón-strategy)
+- [¿Qué es el Patrón Estrategia?](#-qué-es-el-patrón-estrategia)
 - [Objetivo del Proyecto](#-objetivo-del-proyecto)
 - [Implementación Básica](#-implementación-básica)
 - [Implementación Avanzada](#-implementación-avanzada)
@@ -13,15 +13,15 @@ Este proyecto demuestra cómo aplicar el patrón de diseño **Strategy** en Type
 - [Licencia](#-licencia)
 ---
 
-## 🧠 ¿Qué es el Patrón Strategy?
+## 🧠 ¿Qué es el Patrón Estrategia?
 
-El patrón Strategy es un patrón de comportamiento que permite encapsular diferentes algoritmos (estrategias) dentro de clases intercambiables. De esta manera, se puede cambiar la lógica de un algoritmo sin modificar el código que lo utiliza.
+El patrón Estrategia es un patrón de comportamiento que permite encapsular diferentes algoritmos (estrategias) dentro de clases intercambiables. De esta manera, se puede cambiar la lógica de un algoritmo sin modificar el código que lo utiliza.
 
 ---
 
 ## 🎯 Objetivo del Proyecto
 
-El objetivo es construir un clasificador de puntuaciones que determine una categoría según el valor de entrada. Por ejemplo: una puntuación de 92 podría clasificarse como “Excellent”, o como una letra “A”, según la lógica usada. Gracias al patrón Strategy, estas reglas se pueden aplicar sin modificar el núcleo del clasificador.
+El objetivo es construir un clasificador de puntuaciones que determine una categoría según el valor de entrada. Por ejemplo: una puntuación de 92 podría clasificarse como “Excellent”, o como una letra “A”, según la lógica usada. Gracias al patrón Estrategia, estas reglas se pueden aplicar sin modificar el núcleo del clasificador.
 
 ---
 
@@ -107,7 +107,7 @@ npm install
 
 Este proyecto incluye dos versiones del clasificador con estrategias diferentes:
 
-- **Versión básica:** Usa un conjunto fijo y simple de estrategias para clasificar puntuaciones en categorías estándar como “Excellent”, “Good” y “Average”. Es ideal para entender el patrón Strategy en su forma más sencilla.
+- **Versión básica:** Usa un conjunto fijo y simple de estrategias para clasificar puntuaciones en categorías estándar como “Excellent”, “Good” y “Average”. Es ideal para entender el patrón Estrategia en su forma más sencilla.
 
 ```bash
 npm run start:basic
