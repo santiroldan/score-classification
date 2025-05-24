@@ -1,4 +1,4 @@
-# 🎯 Clasificación de Puntuaciones con el Patrón Strategy en TypeScript
+# 🎯 Clasificación de Puntuaciones con el Patrón Estrategia en TypeScript
 
 Este proyecto demuestra cómo aplicar el patrón de diseño **Strategy** en TypeScript para resolver un caso común: clasificar una puntuación (`score`) en distintas categorías. Se abordan dos niveles de implementación: uno básico y otro avanzado, orientado a la extensibilidad y mantenibilidad.
 
