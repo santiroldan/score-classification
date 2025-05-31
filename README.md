@@ -2,6 +2,10 @@
 
 Este proyecto demuestra cómo aplicar el patrón de diseño **Estrategia** en TypeScript para resolver un caso común: clasificar una puntuación (`score`) en distintas categorías. Se abordan dos niveles de implementación: uno básico y otro avanzado, orientado a la extensibilidad y mantenibilidad.
 
+---
+
+## 📋 Tabla de Contenidos
+
 - [¿Qué es el Patrón Estrategia?](#-qué-es-el-patrón-estrategia)
 - [Objetivo del Proyecto](#-objetivo-del-proyecto)
 - [Implementación Básica](#-implementación-básica)
@@ -11,6 +15,7 @@ Este proyecto demuestra cómo aplicar el patrón de diseño **Estrategia** en Ty
 - [Instalación](#-instalación)
 - [Ejecutar los Ejemplos](#-ejecutar-los-ejemplos)
 - [Licencia](#-licencia)
+
 ---
 
 ## 🧠 ¿Qué es el Patrón Estrategia?
